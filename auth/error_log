@@ -1,0 +1,7 @@
+
+[20-Feb-2020 09:10:05 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/simoribe/public_html/auth/login.php on line 40
+[20-Feb-2020 09:10:05 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/simoribe/public_html/auth/login.php on line 40
+[20-Feb-2020 09:10:05 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/simoribe/public_html/auth/login.php on line 41
+[20-Feb-2020 09:10:05 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/simoribe/public_html/auth/login.php on line 41
+[20-Feb-2020 09:10:06 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/simoribe/public_html/auth/login.php on line 40
+[20-Feb-2020 09:10:07 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/simoribe/public_html/auth/login.php on line 41
