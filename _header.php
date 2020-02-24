@@ -9,8 +9,8 @@ if(!$_SESSION['user']){
 } ?>	
 <!DOCTYPE html>
 <html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
+<head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -32,7 +32,7 @@ if(!$_SESSION['user']){
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#"><span class="text-primary" style="font-size: 30pt; color: Aqua ;"><b>SIMORI </b></span> </a>
+                    <a href="#"><span class="text-primary" style="font-size: 30pt; color: green ;"><b>SIMORI </b></span> </a>
                 </li>
                 <hr>
                 <li>
@@ -129,7 +129,17 @@ if(!$_SESSION['user']){
                 <li>
                     <a href="<?= base_url('auth/logout.php')?>"><span class="text-danger">Logout</span></a>
                 </li>
+
             </ul>
+        <div style="
+                width: 100%;
+                left: 25px;
+                bottom: 10px; 
+                position: absolute;">
+                    <a href="<?= base_url('ubah_pass.php')?>"><span class="text-danger" style="color:gray;">Ganti Password</span></a>
+                
         </div>
+        </div>
+        
         <div id="page-content-wrapper">
             <div class="container-fluid">
